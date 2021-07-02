@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {SharedModule} from '../shared/shared.module';
 import { FactorRoutingModule } from './factor-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+ 
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   imports: [
     CommonModule,
     FactorRoutingModule,
-    SharedModule
+    SharedModule,
+   
   ]
 })
 export class FactorModule { }
